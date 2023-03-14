@@ -16,3 +16,11 @@ The knowlegde obtained in each subject:
 * Introduction to algorithm efficiency.
 * Abstract Data Type (ADT).
 * Specification and implementation of ADT: lists, stacks, queues, trees, hash tables, graphs.
+
+PDOO
+* Concepts, techniques and notations.
+* Classes and objects.
+* Polimorfism.
+* Inheritance.
+* Design with polimorfism and inheritance.
+* Complex objects: components, aspects and frameworks.
