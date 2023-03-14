@@ -24,6 +24,13 @@ Credits: 6
 
 **Programming Fundamentals**<br>
 Credits: 6
+* Basic data types.
+* Objects, operators and expressions.
+* Control structures.
+* Functions and procedures.
+* Types of compound data: homogeneous (arrays) and heterogeneous (records).
+* Basic sorting and searching algorithms.
+* Recursion.
 
 **Fundamentals of Physics and Technology**<br>
 Credits: 6
