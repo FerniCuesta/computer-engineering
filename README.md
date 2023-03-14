@@ -5,16 +5,37 @@ The knowlegde obtained in each subject:
 ## First year
 ### First Semester
 
-[Calculus]
+Calculus
 Credits: 6
 * Differential calculus in one variable.
 * Integral calculus in one variable.
 * Numerical methods for differential and integral calculus.
 * Numerical algorithms.
 
-[Physics]
+Software Fundamentals
+Credits: 6
+* Components of a computer system.
+* Components of an Operating System.
+* Operating system services: system calls and command interpreters.
+* Compiling, linking and loading programs.
+* Application development environments and tools.
+* Databases.
+* Engineering applications.
+
+Programming Fundamentals
+Credits: 6
+
+Fundamentals of Physics and Technology
+Credits: 6
+* Fundamental concepts of electromagnetism. 
+* Fundamentals of circuit theory. 
+* Analysis of direct current and alternating current circuits. 
+* Fundamentals of electronic devices. 
+* Basic principles of logic families and digital logic. 
+* Operational amplifiers.
+
 ### Second Semester
-* Fundamental concepts 
+
 
 ## Second year
 ### First Semester
