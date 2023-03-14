@@ -17,7 +17,7 @@ The knowlegde obtained in each subject:
 * Abstract Data Type (ADT).
 * Specification and implementation of ADT: lists, stacks, queues, trees, hash tables, graphs.
 
-PDOO
+[PDOO](./object-oriented-programming-and-design)
 * Concepts, techniques and notations.
 * Classes and objects.
 * Polimorfism.
