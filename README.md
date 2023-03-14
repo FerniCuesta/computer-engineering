@@ -4,7 +4,17 @@
 The knowlegde obtained in each subject:
 ## First year
 ### First Semester
+
+[Calculus]
+Credits: 6
+* Differential calculus in one variable.
+* Integral calculus in one variable.
+* Numerical methods for differential and integral calculus.
+* Numerical algorithms.
+
+[Physics]
 ### Second Semester
+* Fundamental concepts 
 
 ## Second year
 ### First Semester
