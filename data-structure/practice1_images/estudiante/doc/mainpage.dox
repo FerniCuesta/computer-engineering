@@ -1,0 +1,208 @@
+/*! \mainpage Título de la página principal
+
+@image html doxyque.png "Pie de foto"
+
+# Información sobre Doxygen
+Doxygen admite el uso de la [sintaxis de Markdown (Consulta aquí los comandos básicos)](https://www.markdownguide.org/basic-syntax).
+
+Así como el uso de  <a href="https://htmlcheatsheet.com/">sintaxis <strong>HTML</strong></a>. Esto es especialmente útil
+para aquellos aspectos que Markdown no permite modificar, como el <span  style="color:red">color</span>. Aunque es buena idea evitarlo en la medida de lo posible, por dos
+motivos:
+
+1. <span style="font-size:1.1em">Hace el código <strong>poco</strong> <span style="  background-image: linear-gradient(to left, #4285f4, #34a853, #fbbc05, #ea4335); -webkit-background-clip: text; color: transparent;"> <strong> LEGIBLE </strong> </span></span>
+2. La idea detrás de Markdown es separar _aspecto_ y _contenido_. Y es una __gran idea__.
+
+La forma más correcta de modificar el aspecto debería ser mediante un documento ``.css`` configurado en el archivo ``Doxyfile.in``.
+Si te interesa, puedes echarle un vistazo a la [documentación](https://www.doxygen.nl/manual/customize.html) o a
+temas customizados como [este](https://jothepro.github.io/doxygen-awesome-css/). Aunque el tema por defecto nos parece
+perfecto, _CLÁSICO_. Así puedes centrarte en el contenido.
+
+Por último, lo hemos visto en clase y hay suficientes ejemplos en el código fuente proporcionado, pero puedes consultar la
+mayor parte de la sintaxis de Doxygen para comentar código en su
+[documentación](https://www.doxygen.nl/manual/docblocks.html).
+
+# Introducción
+
+El objetivo de estos ejercicio es poner en práctica los conceptos y conocimientos adquiridos sobre la abstracción y
+el manejo de TDAs. A su vez, sirve como introducción a doxygen.
+Para la realización de esta práctica, hemos estado utilizando ficheros de extensión PGM (Portable Gray Map), los cuales se caracterizan por
+estar en blanco y negro con una escala de grises en la que la luminosidad de cada píxel vendrá dada por un entero
+entre 0 y 255.
+Además, el formato PGM es denominado también por contar con una cabecera en la que se especifican diversos parámetros
+acerca de la imagen, como el número de filas y columnas, número de niveles de gris, comentarios, formato de color,
+parámetros de compresión, etc. En dicha cabecera encontramos un "número mágico" que nos indica el tipo de fichero,
+un número indeterminado de comentarios, el número de columnas, el número de filas y el valor del mayor nivel de
+gris que puede tener la imagen.
+
+Para la realización de esta práctica, hemos usado la librería ImageIO, que nos permite hacer uso de numerosos métodos
+para trabajar con imágenes PGM.
+
+Todos los ejercicios han usado  la siguiente imagen como base para comprobar el correcto funcionamiento de los
+métodos implementados (se encuentran en el fichero image.cpp):
+
+@image html vacas.png "vacas.pgm"
+
+
+# Ejecutables
+
+@image html invert.png
+## Negativo:
+
+Calcula el negativo de una imagen
+
+> __negativo__ \<FichImagenOriginal\> \<FichImagenDestino\>
+
+@param "<FichImagenOriginal>" Imagen PGM a la que se va a calcular
+@param <FichImagenDestino> Imagen PGM resultado de calcular el negativo
+
+Imagen obtenida:
+
+@image html negativo_pub.png
+
+## Subimagen:
+
+Genera, por copia, una imagen PGM  a partir de otra imagen PGM. La imagen generada
+será, necesariamente, de un tamaño menor o igual que la original. Debe apoyarse en
+el método Image :: Crop ().
+
+> __subimagen__ \<fich_orig\> \<fich_rdo\> \<fila\> \<col\> \<filas_sub\> \<cols_sub\>
+
+@param "<fich_orig>" fichero que contiene la imagen original
+@param "<fich_rdo>" fichero que contendrá la subimagen resultado.
+@param "<fila> <col>" indican la esquina superior izquierda de la subimagen que se va a extraer.
+@param "<filas_sub> <cols_sub>" indican el número de filas y columnas, respectivamente,
+de la subimagen que se va a extraer
+
+@pre
+    - <fila> y <col> siempre se mantendrán dentro de la imagen.
+    - La subimagen no puede contener píxeles que no formen parte de la imagen original.
+
+Para la obtención de la imagen resultante de este ejercicio, se ha ejecutado el siguiente comando en el que
+se pueden ver los argumentos utilizados:
+
+./build/subimagen img/vacas.pgm ./results/subimagen_pub.pgm 85 145 60 80
+
+@image html subimagen_pub.png
+
+como se puede observar, la imagen resultante es de menor tamaño que la imagen original.
+
+## Zoom:
+
+> __Zoom__ \<fich_orig\> \<fich_rdo\> \<fila\> \<col\> \<lado\>
+
+Función que se encarga de de hacer un zoom x2 a una imagen
+
+@pre
+    - Esta funcion necesita usar el método Crop.
+ @pre
+.
+
+Para la obtención de la imagen resultante de este ejercicio, se ha ejecutado el siguiente comando en el que
+se pueden ver los argumentos utilizados:
+
+./build/zoom img/vacas.pgm ./results/zoom_pub.pgm 85 145 60
+
+@image html zoom_pub.png
+
+## Icono:
+
+> __Icono__ \<fich_orig\> \<fich_rdo\> \<factor\>
+
+Crea una imagen de un tamaño muy reducido a partir de una imagen original.
+El algoritmo de reducción consiste básicamente en tomar cada píxel de la salida como la media de
+los n x n píxeles de la entrada si se quiere hacer una reducción de nx.
+
+@param "<fich_orig>" fichero que contiene la imagen original.
+@param "<fich_rdo>" fichero donde se guardará el icono.
+@param "<factor>" factor de reducción.
+
+@pre
+    - La imagen resultante tendrá floor(filas/factor) x floor(cols/factor)
+
+Para la obtención de la imagen resultante de este ejercicio, se ha ejecutado el siguiente comando en el que
+se pueden ver los argumentos utilizados:
+
+./build/icono img/vacas.pgm ./results/icono_pub.pgm 2
+
+@image html icono_pub.png
+
+## Contraste:
+
+> __Contraste__ \<fich_orig\> \<fich_rdo\> \<e1\> \<e2\> \<s1\> \<s2\>
+
+Genera una imagen de niveles de gris con más contraste que la original. Por ejemplo,
+en la imagen siguiente, a la izquierda, mostramos una imagen con poco contraste y en la derecha,
+la misma imagen una vez aumentado el contraste.
+En realidad se trata de aplicar una transformación lineal a trozos sobre los valores de los píxeles.
+
+@param <fich_orig> fichero que contiene la imagen original.
+@param <fich_rdo> fichero que contendrá la imagen resultado.
+@param <e1>, <e2>, <s1>, <s2> valores usados para la transformación.
+
+
+@pre
+    - a <= z <= b siendo z el nivel de gris de un píxel cualquiera de ese rango.
+    - La luminosidad de cada píxel se calculará usando esta fórmula: T(z) = z' = min + [((max – min) / (b – a)) * (z – a)]
+    - Rangos de los nuevos valores de los píxeles:
+        - [0,s1] si sus valores iniciales están en [0,e1].
+        - [s1, s2] si sus valores iniciales están en [e1,e2].
+        - [s2,255] si sus valores iniciales están en [e2,255].
+
+@post
+    Se modificará la propia imagen que llama a este método
+
+Para la obtención de la imagen resultante de este ejercicio, se ha ejecutado el siguiente comando en el que
+se pueden ver los argumentos utilizados:
+
+./build/contraste img/vacas.pgm ./results/contraste_pub.pgm 64 192 32 224
+
+@image html contraste_pub.png
+
+## Barajar:
+
+> __barajar__ \<fich_orig\> \<fich_rdo\>
+
+@param <fich_orig> fichero que contiene la imagen original.
+@param <fich_rdo> fichero que contendrá la imagen resultado.
+
+Partimos de la imagen shuffle_9973.pgm
+
+@image html shuffle_9973.png "shuffle_9973.pgm"
+
+### Eficiencia teórica
+
+Para el método ShuffleRows() original, la orden de eficiencia sería de O(n^2) pues cuenta con dos bucles anidados,
+mientras que para el mismo método una vez modificado su orden de eficiencia sería de O(n) ya que aunque tenga dos
+bucles for, estos no están anidados, lo que hace que de esta segunda manera sea mucho más eficiente.
+
+### Eficiencia experimental
+
+Hemos realizado un estudio de la eficiencia antes y después de la modificación del método, siendo mucho más eficiente
+una vez aprovechadas las ventajas de su nueva representación como hemos comentado anteriormente.
+
+#### Filas
+
+@image html ejercicio5_filas_original.png "original"
+@image html ejercicio5_filas_result.png "modificado"
+
+#### Columnas
+
+@image html ejercicio5_cols_original.png "original"
+@image html ejercicio5_cols_result.png "modificado"
+
+Como podemos observar, en ambas representaciones al implementar la modificación en dicho método la eficiencia aumenta
+considerablemente, llegando a tardar más de 3 y 5 segundos para las filas y columnas respectivamente con la
+implementación original mientras que no llega a 0.1 segundos en ambas representaciones para la implementación modificada.
+
+
+
+Para la obtención de la imagen resultante de este ejercicio, se ha ejecutado el siguiente comando en el que
+se pueden ver los argumentos utilizados:
+
+./build/barajar img/shuffle_9973.pgm ./results/original_9973.pgm
+
+@image html original_9973.png
+
+*/
+
+
