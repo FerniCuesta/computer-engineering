@@ -4,4 +4,6 @@
 What you will find in each folder:
 
 ### Second year
-[Concurrent & Distributed Systems](https://github.com/FerniCuesta/computer-engineering/tree/main/concurrent-and-distributed-systems)
+[Concurrent & Distributed Systems](./computer-engineering/tree/main/concurrent-and-distributed-systems)
+
+[Data Structure](./computer-engineering/tree/main/data-structure)
