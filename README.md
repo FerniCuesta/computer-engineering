@@ -41,6 +41,8 @@ Credits: 6
 * Basic principles of logic families and digital logic. 
 * Operational amplifiers.
 
+---
+
 ### Second Semester
 **Statistics**<br>
 Credits: 6
@@ -89,6 +91,9 @@ Credits: 6
 * Sequential circuits. 
 * Description of computer operations at the register-to-register transfer level.
 
+---
+---
+
 ## Second year
 ### First Semester
 
@@ -133,5 +138,6 @@ Credits: 6
 * Programming applications using operating system services.
 * Operating system administration.
 
+---
 ### Second Semester
 This semester will be finished by June 2023, until then this part will be empty. The reason is the possible copy from other students and its consecuences.
