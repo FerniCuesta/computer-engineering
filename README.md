@@ -35,8 +35,33 @@ Credits: 6
 * Operational amplifiers.
 
 ### Second Semester
+Statistics
+Credits: 6
+* One and two dimensional descriptive statistics.
+* Probability. Calculus of probabilities. Random variable and distribution function.
+* Basic models of discrete and continuous one-dimensional distributions.
+* Parameter estimation and hypothesis testing. Fitting of distributions.
+* Optimization techniques in Operations Research.
 
+Engineering, Business and Society
+Credits: 6
+* Companies as socio-economic reality: company tipologies.
+* Companies and their environment: introduction to strategic management.
+* Functional subsystems of companies.
+* Human resources management.
+* The market in the ICT sector.
+* Creation of spin-offs and management of companies in the sector.
+* Management of companies in the ICT sector.
+* Social and environmental impact of technical solutions.
 
+Logic and discrete methods
+* Induction and recurrence.
+* Boolean algebras and Boolean functions.
+* Propositional logic.
+* First order logic.
+* Unification and resolution.
+* Graphs and trees.
+* 
 ## Second year
 ### First Semester
 
