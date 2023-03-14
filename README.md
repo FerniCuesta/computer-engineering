@@ -4,7 +4,7 @@
 The knowlegde obtained in each subject:
 
 ### Second year
-[Concurrent & Distributed Systems](./computer-engineering/tree/main/concurrent-and-distributed-systems)
+[Concurrent & Distributed Systems](./concurrent-and-distributed-systems)
 * Mutual exclusion, synchronization and communication between processes.
 * Safety and liveliness properties.
 * Algorithm based on shared memory and message passing.
