@@ -2,11 +2,14 @@
 ## Here you will find my degree work. It is organised in folders, one for each subject.
 
 The knowlegde obtained in each subject:
+## First year
+### First Semester
+### Second Semester
 
 ## Second year
 ### First Semester
 
-[Concurrent & Distributed Systems](./concurrent-and-distributed-systems)
+[Concurrent and Distributed Systems](./concurrent-and-distributed-systems)
 * Mutual exclusion, synchronization and communication between processes.
 * Safety and liveliness properties.
 * Algorithm based on shared memory and message passing.
