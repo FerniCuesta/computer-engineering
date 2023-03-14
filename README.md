@@ -62,8 +62,41 @@ Credits: 6
 * Unification and resolution.
 * Graphs and trees.
 
+**Programming mothodology**<br>
+* High-level language data types and their internal representation.
+* Memory references and dynamic memory. 
+* Encapsulation and information hiding. 
+* Modular design and library creation debugging tools testing and validation. 
+* Error handling. 
+* Software maintenance.
+* I/O, files. 
+* Computer programming project.
+
+**Computer Technology and Organizaation**<br>
+* Computer organization and components. 
+* Basic performance. 
+* Conceptual levels of description of a computer. 
+* Representation of information on the computer. 
+* Basic components.
+* Combinational circuits. 
+* Sequential circuits. 
+* Description of computer operations at the register-to-register transfer level.
+
 ## Second year
 ### First Semester
+
+**Computer Organization**<br>
+* Instruction repertoire architecture. 
+* Structure of a computer at the machine language level and assembly programming. 
+* Relationship between high-level and assembly languages; data representation and simple structures. 
+* Memory system Input/Output system buses.
+* Processor organization: hard-wired and microprogrammed control, channel segmentation, etc.
+
+**[Data Structures](./data-structure)**<br>
+Credits: 6
+* Introduction to algorithm efficiency.
+* Abstract Data Type (ADT).
+* Specification and implementation of ADT: lists, stacks, queues, trees, hash tables, graphs.
 
 **[Concurrent and Distributed Systems](./concurrent-and-distributed-systems)**<br>
 Credits: 6
@@ -73,12 +106,6 @@ Credits: 6
 * Semaphores and monitors.
 * Concurrent and distributed programming libraries.
 * Techniques for real-time applications design.
-
-**[Data Structure](./data-structure)**<br>
-Credits: 6
-* Introduction to algorithm efficiency.
-* Abstract Data Type (ADT).
-* Specification and implementation of ADT: lists, stacks, queues, trees, hash tables, graphs.
 
 **[PDOO](./object-oriented-programming-and-design)**<br>
 Credits: 6
