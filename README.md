@@ -65,7 +65,7 @@ Credits: 6
 ## Second year
 ### First Semester
 
-**[Concurrent and Distributed Systems](./concurrent-and-distributed-systems)**
+**[Concurrent and Distributed Systems](./concurrent-and-distributed-systems)**<br>
 Credits: 6
 * Mutual exclusion, synchronization and communication between processes.
 * Safety and liveliness properties.
@@ -74,12 +74,14 @@ Credits: 6
 * Concurrent and distributed programming libraries.
 * Techniques for real-time applications design.
 
-[Data Structure](./data-structure)
+**[Data Structure](./data-structure)**<br>
+Credits: 6
 * Introduction to algorithm efficiency.
 * Abstract Data Type (ADT).
 * Specification and implementation of ADT: lists, stacks, queues, trees, hash tables, graphs.
 
-[PDOO](./object-oriented-programming-and-design)
+**[PDOO](./object-oriented-programming-and-design)**<br>
+Credits: 6
 * Concepts, techniques and notations.
 * Classes and objects.
 * Polimorfism.
