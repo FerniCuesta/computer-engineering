@@ -62,4 +62,4 @@ Credits: 6
 * Complex objects: components, aspects and frameworks.
 
 ### Second Semester
-This semester will be finished by June 2023, until then this part will be empty. The reason is the possible copy from other students and its consecuences.
+This semester will be finished by June 2023, until then this part will be empty. The reason is the possible copy from other students and its consequences.
