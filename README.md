@@ -2,17 +2,17 @@
 ## Here you will find my degree work. It is organised in folders, one for each subject.
 
 The knowlegde obtained in each subject:
-## First year
+## First year 
 ### First Semester
 
-Calculus
+**Calculus**<br>
 Credits: 6
 * Differential calculus in one variable.
 * Integral calculus in one variable.
 * Numerical methods for differential and integral calculus.
 * Numerical algorithms.
 
-Software Fundamentals
+**Software Fundamentals**<br>
 Credits: 6
 * Components of a computer system.
 * Components of an Operating System.
@@ -22,10 +22,10 @@ Credits: 6
 * Databases.
 * Engineering applications.
 
-Programming Fundamentals
+**Programming Fundamentals**<br>
 Credits: 6
 
-Fundamentals of Physics and Technology
+**Fundamentals of Physics and Technology**<br>
 Credits: 6
 * Fundamental concepts of electromagnetism. 
 * Fundamentals of circuit theory. 
@@ -35,7 +35,7 @@ Credits: 6
 * Operational amplifiers.
 
 ### Second Semester
-Statistics
+**Statistics**<br>
 Credits: 6
 * One and two dimensional descriptive statistics.
 * Probability. Calculus of probabilities. Random variable and distribution function.
@@ -43,7 +43,7 @@ Credits: 6
 * Parameter estimation and hypothesis testing. Fitting of distributions.
 * Optimization techniques in Operations Research.
 
-Engineering, Business and Society
+**Engineering, Business and Society**<br>
 Credits: 6
 * Companies as socio-economic reality: company tipologies.
 * Companies and their environment: introduction to strategic management.
@@ -54,18 +54,19 @@ Credits: 6
 * Management of companies in the ICT sector.
 * Social and environmental impact of technical solutions.
 
-Logic and discrete methods
+**Logic and discrete methods**<br>
 * Induction and recurrence.
 * Boolean algebras and Boolean functions.
 * Propositional logic.
 * First order logic.
 * Unification and resolution.
 * Graphs and trees.
-* 
+
 ## Second year
 ### First Semester
 
-[Concurrent and Distributed Systems](./concurrent-and-distributed-systems)
+**[Concurrent and Distributed Systems](./concurrent-and-distributed-systems)**
+Credits: 6
 * Mutual exclusion, synchronization and communication between processes.
 * Safety and liveliness properties.
 * Algorithm based on shared memory and message passing.
