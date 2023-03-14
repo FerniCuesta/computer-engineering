@@ -12,7 +12,7 @@ The knowlegde obtained in each subject:
 * Concurrent and distributed programming libraries.
 * Techniques for real-time applications design.
 
-[Data Structure](./computer-engineering/tree/main/data-structure)
+[Data Structure](./data-structure)
 * Introduction to algorithm efficiency.
 * Abstract Data Type (ADT).
 * Specification and implementation of ADT: lists, stacks, queues, trees, hash tables, graphs.
