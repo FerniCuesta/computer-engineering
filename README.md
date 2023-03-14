@@ -3,7 +3,9 @@
 
 The knowlegde obtained in each subject:
 
-### Second year
+## Second year
+### First Semester
+
 [Concurrent & Distributed Systems](./concurrent-and-distributed-systems)
 * Mutual exclusion, synchronization and communication between processes.
 * Safety and liveliness properties.
@@ -24,3 +26,6 @@ The knowlegde obtained in each subject:
 * Inheritance.
 * Design with polimorfism and inheritance.
 * Complex objects: components, aspects and frameworks.
+
+### Second Semester
+This semester will be finished by June 2023, until then this part will be empty. The reason is the possible copy from other students and its consecuences.
