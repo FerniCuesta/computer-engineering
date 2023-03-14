@@ -7,3 +7,6 @@ What you will find in each folder:
 [Concurrent & Distributed Systems](./computer-engineering/tree/main/concurrent-and-distributed-systems)
 
 [Data Structure](./computer-engineering/tree/main/data-structure)
+* Introduction to algorithm efficiency.
+* Abstract Data Type (ADT).
+* Specification & implementation of ADT: lists, stacks, queues, trees, hash tables, graphs.
