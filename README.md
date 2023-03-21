@@ -140,4 +140,15 @@ Credits: 6
 
 ---
 ### Second Semester
-This semester will be finished by June 2023, until then this part will be empty. The reason is the possible copy from other students and its consequences.
+This semester will be finished by June 2023, until then this part will only have some subjects. The reason is the possible copy from other students and its consequences.
+
+**[Computer Architecture](./computer-architecture)**<br>
+Credits: 6
+* Structure and classification of parallel architectures (processors, multiprocessors, multicomputers and distributed systems). 
+* Classification of the parallelism of an application. 
+* Architectures with instruction level parallelism (ILP). 
+* Efficient ILP programming (basic code optimization algorithms and mechanisms), multicore and multiprocessor architectures. 
+* Parallel programming. 
+* Performance evaluation.
+
+
