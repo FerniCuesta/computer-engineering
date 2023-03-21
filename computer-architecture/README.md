@@ -5,3 +5,11 @@ Credits: 6<br>
 Year: Second<br>
 Semester: Second
 
+## Some gcc tools  
+
+To compile with `gcc` our `.c` code:  
+`gcc -O2 -fopenmp -o <executable> <code.c>`  
+
+To execute an executable:  
+`./<executable>`  
+
