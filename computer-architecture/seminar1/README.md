@@ -13,7 +13,7 @@ Specify what calculus are executed in parallel.
 A thread (master) create a set of threads when reaching a `parallel` directive.  
 Each thread executes the code included in the block region.  
 
-An [example of `Hello World` in `C`].  
+An example of `Hello World` in `C`.  
 
 ```
 #include <stdio.h>
