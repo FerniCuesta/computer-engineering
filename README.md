@@ -63,7 +63,7 @@ Credits: 6
 * Management of companies in the ICT sector.
 * Social and environmental impact of technical solutions.
 
-**Logic and discrete methods**<br>
+**Logic and Discrete Methods**<br>
 * Induction and recurrence.
 * Boolean algebras and Boolean functions.
 * Propositional logic.
@@ -71,7 +71,7 @@ Credits: 6
 * Unification and resolution.
 * Graphs and trees.
 
-**Programming mothodology**<br>
+**Programming Methodology**<br>
 * High-level language data types and their internal representation.
 * Memory references and dynamic memory. 
 * Encapsulation and information hiding. 
