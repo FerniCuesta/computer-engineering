@@ -1,4 +1,4 @@
-# Practice 0 - Introduction to the programming enviroment
+# Seminar 0 - Introduction to the programming enviroment
 
 Each user has a home in front-end node of atcgrid. There you can:
 
